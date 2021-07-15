@@ -1,0 +1,25 @@
+.main-cowin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .body-part {
+    display: flex;
+    padding: 1em;
+    margin: 2em 0;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .drop-search {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .errorMessage {
+    height: 3em;
+    color: red;
+    font-size: 12px;
+    text-align: left;
+  }
+  

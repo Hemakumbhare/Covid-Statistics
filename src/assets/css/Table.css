@@ -1,0 +1,70 @@
+.total-count {
+    display: flex;
+    width: auto;
+    border: 1px solid #ccc;
+    align-items: center;
+    justify-content: space-around;
+    height: 40px;
+    font-size: 11px;
+  }
+  .count {
+    display: flex;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    height: 40px;
+    width: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+  .paid-span {
+    color: #fff;
+    font-size: 9px;
+    font-weight: 600;
+    background-color: #2152b3;
+    border-radius: 20px;
+    padding: 2px 5px;
+    margin-left: 3px;
+  }
+  .MuiTableCell-body {
+    border: 1px solid rgba(224, 224, 224, 1);
+  }
+  .MuiTableCell-head {
+    border: 1px solid rgba(224, 224, 224, 1);
+  }
+  .nodata {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .nodata > span {
+    background-color: #f3f3f3;
+    color: #afafaf;
+    border: 1px solid #afafaf;
+    width: 3em;
+  }
+  
+  .filter-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .message-noVaccination {
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    margin: 1em 0;
+    color: black;
+  }
+  .button-group{
+  display:flex;
+  flex-direction: column;
+  margin-left: 1.5em;
+  }
+  .button-group > span {
+    text-align:left ;
+    margin-bottom: 5px;
+    font-size: 12px;
+    height: 1em;
+  }
